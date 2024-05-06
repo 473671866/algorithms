@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{4915c5db-6c13-4bc6-81eb-dbdabf946172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\source">
+      <UniqueIdentifier>{7b60ab1c-c26c-437d-a704-1b694441222c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\extend">
+      <UniqueIdentifier>{ac72bd20-b0ec-46ac-a58f-9b31bf187dcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\extend\aside.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\block.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\button.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\combo.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\component.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\control.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\from.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\graphical.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\guid.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\horizontal.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\label.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\layout.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\extend\vertical.ixx">
+      <Filter>imgui\extend</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui_tables.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui_widgets.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui_demo.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui_draw.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui_impl_dx11.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\source\imgui_impl_win32.cpp">
+      <Filter>imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm.ixx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\source\imgui_impl_win32.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imgui_internal.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imstb_rectpack.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imstb_textedit.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imstb_truetype.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imconfig.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imgui.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\source\imgui_impl_dx11.h">
+      <Filter>imgui\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\extend\entity.inl">
+      <Filter>imgui\extend</Filter>
+    </None>
+  </ItemGroup>
+</Project>
